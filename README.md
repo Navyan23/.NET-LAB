@@ -195,4 +195,30 @@ namespace DetailsConsoleApp3<br>
 <br>
 <br>
 <br>
+*c# program to create a gray code*
+
+using System;<br>
+namespace program4<br>
+{<br>
+    class GrayCode<br>
+    {<br>
+        static int getGray(int n)<br>
+        {<br>
+            return n ^ (n >> 1);<br>
+        }<br>
+       static void Main(string[] args)<br>
+        {<br>
+            int InputNum, GrayNum;<br>
+            Console.WriteLine("\nEnter the decimal number :");<br>
+            InputNum = Convert.ToInt32(Console.ReadLine());<br>
+            Console.WriteLine("\nBinary equivalent of {0}:{1}", InputNum, Convert.ToString(InputNum, 2));<br>
+            GrayNum = getGray(InputNum);<br>
+            Console.WriteLine("Gray Code equivalent of {0}:{1}", InputNum, Convert.ToString(GrayNum, 2));<br>
+        }<br>
+    }<br>
+}<br>
+<br>
+![image](https://user-images.githubusercontent.com/97940058/154626580-7e4602e9-c376-462d-9283-84fb91207ed5.png)
+
+
 
