@@ -31,17 +31,14 @@ namespace Excercises<br>
                 for (int space = number - i; space > 0; space--)<br>
                 {<br>
                     Console.Write(" ");<br>
-
                 }<br>
                 for (int j = 0; j < i; j++)<br>
                 {<br>
                     Console.Write(digit + " ");<br>
                     digit = (digit == 1) ? 0 : 1;<br>
                 }<br>
-
                 Console.Write("\n");<br>
             }<br>
-
         }<br>
     }<br>
 }<br>
@@ -70,20 +67,17 @@ namespace amicableConsoleApp3<br>
                 {<br>
                     sum1 += i;<br>
                 }<br>
-
-            }<br>
+           }<br>
             for (int i = 1; i < num2; i++)<br>
             {<br>
                 if (num2 % i == 0)<br>
                 {<br>
                     sum2 += i;<br>
-
                 }<br>
             }<br>
             if (sum1 == num2 && sum2 == num1)<br>
             {<br>
                 Console.WriteLine("\nThe numbers {0} and {1} are amicable.", num1, num2);<br>
-
             }<br>
             else<br>
             {<br>
