@@ -1,3 +1,5 @@
+/*c# program to print a statement hello world*/<br>
+
 using System;<br>
 
 namespace helloconsoleapp<br>
@@ -14,33 +16,34 @@ namespace helloconsoleapp<br>
 ![image](https://user-images.githubusercontent.com/97940058/154424179-5dd496de-6d62-4fca-b673-cefcdfc518c5.png)
 <br>
 <br>
-using System;
+/*c# program to print a binary triangle*/<br>
+using System;<br>
 
-namespace Excercises
-{
-    class BinaryTriangle1
-    {
-        static void Main(string[] args)
-        {
-            int number, digit = 1;
-            Console.Write("\nEnter the number of lines:");
-            number = Convert.ToInt32(Console.ReadLine());
-            for (int i = 1; i <= number; i++)
-            {
-                for (int space = number - i; space > 0; space--)
-                {
-                    Console.Write(" ");
+namespace Excercises<br>
+{<br>
+    class BinaryTriangle1<br>
+    {<br>
+        static void Main(string[] args)<br>
+        {<br>
+            int number, digit = 1;<br>
+            Console.Write("\nEnter the number of lines:");<br>
+            number = Convert.ToInt32(Console.ReadLine());<br>
+            for (int i = 1; i <= number; i++)<br>
+            {<br>
+                for (int space = number - i; space > 0; space--)<br>
+                {<br>
+                    Console.Write(" ");<br>
 
-                }
-                for (int j = 0; j < i; j++)
-                {
-                    Console.Write(digit + " ");
-                    digit = (digit == 1) ? 0 : 1;
-                }
+                }<br>
+                for (int j = 0; j < i; j++)<br>
+                {<br>
+                    Console.Write(digit + " ");<br>
+                    digit = (digit == 1) ? 0 : 1;<br>
+                }<br>
 
-                Console.Write("\n");
-            }
+                Console.Write("\n");<br>
+            }<br>
 
-        }
-    }
-}
+        }<br>
+    }<br>
+}<br>
