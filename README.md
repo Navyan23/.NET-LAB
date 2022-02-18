@@ -47,7 +47,7 @@ namespace Excercises<br>
 <br>
 <br>
 <br>
-*2.c# program to check whether the enterd number is an amicable number or not*
+*2.c# program to check whether the enterd number is an amicable number or not*<br>
 using System;<br>
 namespace amicableConsoleApp3<br>
 {<br>
