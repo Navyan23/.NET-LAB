@@ -46,3 +46,8 @@ namespace Excercises<br>
     }<br>
 }<br>
 ![image](https://user-images.githubusercontent.com/97940058/154621833-9d4c7692-e9a6-4b4c-abef-e3c6bac160c8.png)
+<br>
+<br>
+<br>
+<br>
+*c# program to check whether the enterd number is an amicable number or not*
