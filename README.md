@@ -87,5 +87,8 @@ namespace amicableConsoleApp3<br>
     }<br>
 }<br>
 <br>
+<br>
+![image](https://user-images.githubusercontent.com/97940058/154623206-a11f04e7-a90e-4a36-b628-a808d40fb448.png)
+
 
 
