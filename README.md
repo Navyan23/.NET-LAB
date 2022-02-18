@@ -307,6 +307,43 @@ namespace Exercises<br>
 }<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940058/154629715-835a63f9-2153-4b14-8e4d-c807ad85ee11.png)
+<br>
+<br>
+<br>
+*7.c# program to generate register number automatically for 100 students usind static constructor*
+
+using System;<br>
+namespace Exercise7<br>
+{<br>
+    class RegisterNum<br>
+    {<br>
+        int regNo;<br>
+        static int startNum;<br>
+        static RegisterNum()<br>
+        {<br>
+            startNum = 20210000;<br>
+        }<br>
+        RegisterNum()<br>
+        {<br>
+            regNo = ++startNum;<br>
+        }<br>
+       public static void Main(string[] args)<br>
+        {<br>
+           for(int i=0; i<100;i++)<br>
+        {<br>
+            RegisterNum student = new RegisterNum();<br>
+            Console.WriteLine("Student {0}:{1}", i + 1, student.regNo);<br>
+        }<br>
+        }<br>
+    }<br>
+}<br>
+
+![image](https://user-images.githubusercontent.com/97940058/154631296-82f56c61-e96d-440a-aa87-c2208117f9d6.png) ![image](https://user-images.githubusercontent.com/97940058/154631715-a56ca44b-bce9-4976-a7a7-5162b2a766f7.png) ![image](https://user-images.githubusercontent.com/97940058/154632074-424b9312-47d1-466a-92d4-100d0ab83edb.png) ![image](https://user-images.githubusercontent.com/97940058/154632456-abea9f20-8cd0-45b2-acea-2186f233ec4f.png)
+
+
+
+
+
 
 
 
