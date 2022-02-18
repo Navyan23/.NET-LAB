@@ -1,4 +1,4 @@
-/*c# program to print a statement hello world*/<br>
+*c# program to print a statement hello world*<br>
 
 using System;<br>
 
