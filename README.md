@@ -1,7 +1,6 @@
 *c# program to print a statement hello world*<br>
 
 using System;<br>
-
 namespace helloconsoleapp<br>
 {<br>
     class hello<br>
@@ -16,9 +15,8 @@ namespace helloconsoleapp<br>
 ![image](https://user-images.githubusercontent.com/97940058/154424179-5dd496de-6d62-4fca-b673-cefcdfc518c5.png)
 <br>
 <br>
-/*c# program to print a binary triangle*/<br>
+*1.c# program to print a binary triangle*<br>
 using System;<br>
-
 namespace Excercises<br>
 {<br>
     class BinaryTriangle1<br>
@@ -47,3 +45,4 @@ namespace Excercises<br>
         }<br>
     }<br>
 }<br>
+![image](https://user-images.githubusercontent.com/97940058/154621833-9d4c7692-e9a6-4b4c-abef-e3c6bac160c8.png)
