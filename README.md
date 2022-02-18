@@ -338,7 +338,7 @@ namespace Exercise7<br>
     }<br>
 }<br>
 
-![image](https://user-images.githubusercontent.com/97940058/154631296-82f56c61-e96d-440a-aa87-c2208117f9d6.png) ![image](https://user-images.githubusercontent.com/97940058/154631715-a56ca44b-bce9-4976-a7a7-5162b2a766f7.png) ![image](https://user-images.githubusercontent.com/97940058/154632074-424b9312-47d1-466a-92d4-100d0ab83edb.png) ![image](https://user-images.githubusercontent.com/97940058/154632456-abea9f20-8cd0-45b2-acea-2186f233ec4f.png)
+![image](https://user-images.githubusercontent.com/97940058/154631296-82f56c61-e96d-440a-aa87-c2208117f9d6.png) ![image](https://user-images.githubusercontent.com/97940058/154631715-a56ca44b-bce9-4976-a7a7-5162b2a766f7.png) ![image](https://user-images.githubusercontent.com/97940058/154632074-424b9312-47d1-466a-92d4-100d0ab83edb.png)![image](https://user-images.githubusercontent.com/97940058/154632456-abea9f20-8cd0-45b2-acea-2186f233ec4f.png)
 
 
 
