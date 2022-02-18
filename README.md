@@ -89,6 +89,9 @@ namespace amicableConsoleApp3<br>
 <br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940058/154623206-a11f04e7-a90e-4a36-b628-a808d40fb448.png)
-
+<br>
+<br>
+<br>
+*3.c# program to illustrate multilevel inheritance with virtual model(displaying student details)*
 
 
