@@ -670,6 +670,47 @@ namespace Exercise13<br>
     }<br>
 }<br>
 
+![image](https://user-images.githubusercontent.com/97940058/155669226-b5f42553-72d8-473b-bd05-b511bd49e6bf.png)
+
+
+*14.c# program to create thread pools*
+
+
+using System;<br>
+using System.Threading;<br>
+namespace Exercises<br>
+{<br>
+    class ThreadPoolProg<br>
+    {<br>
+        public void ThreadFun1(object obj)<br>
+        {<br>
+            int loop = 0;<br>
+            for (loop = 0; loop <= 4; loop++)<br>
+            {<br>
+                Console.WriteLine("Thread1 is executing");<br>
+            }<br>
+        }<br>
+        public void ThreadFun2(object obj)<br>
+        {<br>
+            int loop = 0;<br>
+            for (loop = 0; loop <= 4; loop++)<br>
+            {<br>
+                Console.WriteLine("Thread2 is executing");<br>
+            }<br>
+        }<br>
+        public static void Main()<br>
+        {<br>
+            ThreadPoolProg TP = new ThreadPoolProg();<br>
+            for (int i = 0; i < 2; i++)<br>
+            {<br>
+                ThreadPool.QueueUserWorkItem(new WaitCallback(TP.ThreadFun1)); ThreadPool.QueueUserWorkItem(new WaitCallback(TP.ThreadFun2));<br>
+            }<br>
+            Console.ReadKey();<br>
+        }<br>
+    }<br>
+}<br>
+
+
 
 
 
