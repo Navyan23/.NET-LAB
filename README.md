@@ -561,6 +561,47 @@ namespace Exercise11<br>
 ![image](https://user-images.githubusercontent.com/97940058/155660956-89555372-38c1-4046-9ac6-30921857aa96.png)
 ![image](https://user-images.githubusercontent.com/97940058/155661271-d8a027ae-38d3-4b0f-bdeb-a1202230d044.png)
 ![image](https://user-images.githubusercontent.com/97940058/155662628-61eaccab-ef41-4cf4-a3ac-4886ea43c19b.png)
+<br>
+<br>
+
+<br>
+*12.c# program to perform file operation*
+
+using System;<br>
+using System.IO;<br>
+namespace Exercise12<br>
+{<br>
+    class FileRead<br>
+    {<br>
+         public static void Main()<br>
+        {<br>
+            string file1;<br>
+            string file2;<br>
+            Console.Write("Enter the first file path:");<br>
+            file1 = Console.ReadLine();<br>
+            Console.Write("Enter the second file path:");
+            file2 = Console.ReadLine();<br>
+            if(!File.Exists(file1))<br>
+            {<br>
+                Console.WriteLine("First file Does not exists!");<br>
+
+            }<br>
+            else if(!File.Exists(file2))<br>
+            {<br>
+                Console.WriteLine("Second File does not exists");<br>
+
+            }<br>
+            else if( File.ReadAllText(file1)==File.ReadAllText(file2))<br>
+            {<br>
+                Console.WriteLine("Both file contain the same contemt");<br>
+            }<br>
+            else<br>
+            {<br>
+                Console.WriteLine("Contents of files are not same");<br>
+            }<br>
+        }<br>
+    }<br>
+}<br>
 
 
     
