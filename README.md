@@ -568,6 +568,12 @@ namespace Exercise11<br>
         }
     }
 }
+<br
+![image](https://user-images.githubusercontent.com/97940058/155660956-89555372-38c1-4046-9ac6-30921857aa96.png)
+![image](https://user-images.githubusercontent.com/97940058/155661271-d8a027ae-38d3-4b0f-bdeb-a1202230d044.png)
+![image](https://user-images.githubusercontent.com/97940058/155661459-2d643d5d-af33-4d3e-91f3-bbda2910dcf4.png)
+
+    
 
 
 
