@@ -795,32 +795,84 @@ namespace Exercises<br>
 <br>
 <br>
 *17.c# program to check prime number*
-using System;
-namespace Exercises
-{
-    public class FibonacciExample
-    {
-        public static void Main(string[] args)
-        {
-            int n1 = 0, n2 = 1, n3, i, number;
-            Console.Write("Enter the number of elements: ");
-            number = int.Parse(Console.ReadLine());
-            Console.Write(n1 + " " + n2 + " ");
-            for (i = 2; i < number; ++i)    
-            {
-                n3 = n1 + n2;
-                Console.Write(n3 + " ");
-                n1 = n2;
-                n2 = n3;
-            }
-        }
-    }
-}
+using System;<br>
+namespace Exercises<br>
+{<br>
+    public class FibonacciExample<br>
+    {<br>
+        public static void Main(string[] args)<br>
+        {<br>
+            int n1 = 0, n2 = 1, n3, i, number;<br>
+            Console.Write("Enter the number of elements: ");<br>
+            number = int.Parse(Console.ReadLine());<br>
+            Console.Write(n1 + " " + n2 + " ");<br>
+            for (i = 2; i < number; ++i)<br>    
+            {<br>
+                n3 = n1 + n2;<br>
+                Console.Write(n3 + " ");<br>
+                n1 = n2;<br>
+                n2 = n3;<br>
+            }<br>
+        }<br>
+    }<br>
+}<br>
 
 
 ![image](https://user-images.githubusercontent.com/97940058/156500134-2c29073a-0860-4d60-ba23-c320be9871e3.png)
 ![image](https://user-images.githubusercontent.com/97940058/156500209-5118765f-77f0-4de7-9a74-34cb464e8512.png)
 
+
+<br>
+<br>
+<br>
+*18.c# program to check whether the given number is palindrome or not*
+using System;<br>
+public class PalindromeExample<br>
+{<br>
+    public static void Main(string[] args)<br>
+    {<br>
+        int n, r, sum = 0, temp;<br>
+        Console.Write("Enter the Number: ");<br>
+        n = int.Parse(Console.ReadLine());<br>
+        temp = n;<br>
+        while (n > 0)<br>
+        {<br>
+            r = n % 10;<br>
+            sum = (sum * 10) + r;<br>
+            n = n / 10;<br>
+        }<br>
+        if (temp == sum)<br>
+            Console.Write("Number is Palindrome.");<br>
+        else<br>
+           Console.Write("Number is not Palindrome");<br>
+    }<br>
+}<br>
+
+![image](https://user-images.githubusercontent.com/97940058/156502084-0461c64c-e6cb-4c04-b664-d1835fdda05d.png)
+![image](https://user-images.githubusercontent.com/97940058/156502474-5e7f97af-11ff-460b-91a2-f7175ed27ac5.png)
+
+<br>
+<br>
+<br>
+<br>
+
+*19.c# progrm to print factrocial of a number*
+using System;<br>
+public class FactorialExample<br>
+{<br>
+    public static void Main(string[] args)<br>
+    {<br>
+        int i, fact = 1, number;<br>
+        Console.Write("Enter any Number: ");<br>
+        number = int.Parse(Console.ReadLine());<br>
+        for (i = 1; i <= number; i++)<br>
+        {<br>
+            fact = fact * i;<br>
+        }<br>
+        Console.Write("Factorial of " + number + " is: " + fact);<br>
+    }<br>
+}<br>
+![image](https://user-images.githubusercontent.com/97940058/156502564-100ed17a-8ebb-4466-a445-45e5da8346f8.png)
 
 
 
