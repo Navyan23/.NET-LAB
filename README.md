@@ -791,6 +791,35 @@ namespace Exercises<br>
 
 ![image](https://user-images.githubusercontent.com/97940058/155935301-4408ee25-243e-4881-86fd-a952c733c734.png)
 
+<br>
+<br>
+<br>
+*17.c# program to check prime number*
+using System;
+namespace Exercises
+{
+    public class FibonacciExample
+    {
+        public static void Main(string[] args)
+        {
+            int n1 = 0, n2 = 1, n3, i, number;
+            Console.Write("Enter the number of elements: ");
+            number = int.Parse(Console.ReadLine());
+            Console.Write(n1 + " " + n2 + " ");
+            for (i = 2; i < number; ++i)    
+            {
+                n3 = n1 + n2;
+                Console.Write(n3 + " ");
+                n1 = n2;
+                n2 = n3;
+            }
+        }
+    }
+}
+
+
+![image](https://user-images.githubusercontent.com/97940058/156500134-2c29073a-0860-4d60-ba23-c320be9871e3.png)
+![image](https://user-images.githubusercontent.com/97940058/156500209-5118765f-77f0-4de7-9a74-34cb464e8512.png)
 
 
 
