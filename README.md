@@ -872,7 +872,82 @@ public class FactorialExample<br>
         Console.Write("Factorial of " + number + " is: " + fact);<br>
     }<br>
 }<br>
+
 ![image](https://user-images.githubusercontent.com/97940058/156502564-100ed17a-8ebb-4466-a445-45e5da8346f8.png)
+<br>
+<br>
+<br>
+*20.c# program to check Armstrong number*
+using System;<br>
+public class ArmstrongExample<br>
+{<br>
+    public static void Main(string[] args)<br>
+    {<br>
+        int n, r, sum = 0, temp;<br>
+        Console.Write("Enter the Number= ");<br>
+        n = int.Parse(Console.ReadLine());<br>
+        temp = n;<br>
+        while (n > 0)<br>
+        {<br>
+            r = n % 10;<br>
+            sum = sum + (r * r * r);<br>
+            n = n / 10;<br>
+        }<br>
+        if (temp == sum)<br>
+            Console.Write("Armstrong Number.");<br>
+        else<br>
+            Console.Write("Not Armstrong Number.");<br>
+    }<br>
+}<br>
+
+![image](https://user-images.githubusercontent.com/97940058/156503450-c09b64ac-c498-4195-85ca-1139c5be6af5.png)
+![image](https://user-images.githubusercontent.com/97940058/156503540-f4df865a-a646-4294-8629-0673b4644ea6.png)
+<br>
+<br>
+<br>
+*21.c# program to print sum of digits*
+using System;<br>
+public class SumExample<br>
+{<br>
+    public static void Main(string[] args)<br>
+    {<br>
+        int n, sum = 0, m;<br>
+        Console.Write("Enter a number: ");<br>
+        n = int.Parse(Console.ReadLine());<br>
+        while (n > 0)<br>
+        {<br>
+            m = n % 10;<br>
+            sum = sum + m;<br>
+            n = n / 10;<br>
+        }<br>
+        Console.Write("Sum is= " + sum);<br>
+    }<br>
+}<br>
+![image](https://user-images.githubusercontent.com/97940058/156505146-3373c067-5916-4165-a455-9299d8002d8c.png)
+
+<br>
+<br>
+
+*22.c# progrm to reverse a given number*
+using System;<br>
+public class ReverseExample<br>
+{<br>
+    public static void Main(string[] args)<br>
+    {<br>
+        int n, reverse = 0, rem;<br>
+        Console.Write("Enter a number: ");<br>
+        n = int.Parse(Console.ReadLine());<br>
+        while (n != 0)<br>
+        {<br>
+            rem = n % 10;<br>
+            reverse = reverse * 10 + rem;<br>
+            n /= 10;<br>
+        }<br>
+        Console.Write("Reversed Number: " + reverse);<br>
+    }<br>
+}<br>
+![image](https://user-images.githubusercontent.com/97940058/156505195-ea254dbd-7285-4e25-9ab7-8e9ec2c54d7b.png)
+
 
 
 
